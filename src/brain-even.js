@@ -1,5 +1,5 @@
-import getRandomInt from './randomFunction.js';
 import readlineSync from 'readline-sync';
+import getRandomInt from './randomFunction.js';
 
 export default function evenGame() {
   console.log('Welcome to the Brain Games!');
@@ -21,4 +21,4 @@ export default function evenGame() {
     console.log('Correct!');
   }
   console.log(`Congratulations, ${name}!`);
-};
+}
