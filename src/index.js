@@ -1,20 +1,18 @@
 import readlineSync from 'readline-sync';
-import getRandomInt from './randomFunction.js';
 
-export default function evenGame() {
+const gameRounds = 3;
+
+export default function startGame(rulesOfGame, setGame) {
   console.log('Welcome to the Brain Games!');
   const name = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${name}!`);
-  console.log('Answer "yes" if the number is even, otherwise answer "no".');
-
-  for (let i = 0; i < 3; i += 1) {
-    const max = 50;
-    const question = getRandomInt(max);
+  console.log(rulesOfGame);
+  for (let i = 0; i < gameRounds; i += 1) {
+    const [question, answer] = setGame();
     console.log(`Question: ${question}`);
-    const trueAnswer = (question % 2) === 0 ? 'yes' : 'no';
     const userAnswer = readlineSync.question('Your answer: ');
-    if (userAnswer !== trueAnswer) {
-      console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${trueAnswer}'.`);
+    if (userAnswer !== answer) {
+      console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${answer}'.`);
       console.log(`Let's try again, ${name}!`);
       return;
     }
