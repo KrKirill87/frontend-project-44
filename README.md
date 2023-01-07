@@ -4,4 +4,6 @@
 ### asciinema for brain-even:
 [![asciicast](https://asciinema.org/a/ETldjW1Sk6F5OXLymcodnhuel.svg)](https://asciinema.org/a/ETldjW1Sk6F5OXLymcodnhuel)
 ### asciinema for brain-calc:
-[![asciicast]( https://asciinema.org/a/kGCNloQ3BnZYQG5i2tpPbtEzX.svg)]( https://asciinema.org/a/kGCNloQ3BnZYQG5i2tpPbtEzX)
+[![asciicast](https://asciinema.org/a/kGCNloQ3BnZYQG5i2tpPbtEzX.svg)](https://asciinema.org/a/kGCNloQ3BnZYQG5i2tpPbtEzX)
+### asciinema for brain-gcd:
+[![asciicast](https://asciinema.org/a/JmWSLGdv6MW8FtLdg1R1M3OFL.svg)](https://asciinema.org/a/JmWSLGdv6MW8FtLdg1R1M3OFL)
